@@ -1,0 +1,343 @@
+﻿@{
+    ViewData["Title"] = "Huş Mühendislik";
+}
+
+<!-- Hero Section -->
+<div class="home-container" id="hero">
+    <!-- Background accent -->
+    <div class="bg-accent"></div>
+    
+    <!-- Image instead of pyramid-arranged buttons -->
+    <div class="hero-image" style="margin-top: -20px;">
+        <img src="~/images/logo.png" alt="Huş Mühendislik" class="company-image">
+    </div>
+    
+    <div class="content-center">
+        <h1 class="main-title">HUŞ Mühendislik</h1>
+        <p class="tagline">Değer yaratan temel kaynağın para değil insan olduğu düsturuyla...</p>
+        
+        
+        <!-- Achievements Section -->
+        <div class="achievements">
+            <div class="achievement">
+                <span class="number">30+</span>
+                <span class="label">Yıllık Deneyim</span>
+            </div>
+            <div class="achievement">
+                <span class="number">50+</span>
+                <span class="label">Tamamlanan Proje</span>
+            </div>
+            <div class="achievement">
+                <span class="number">30+</span>
+                <span class="label">Mutlu Müşteri</span>
+            </div>
+        </div>
+        
+        <div class="button-group">
+            <div class="primary-buttons">
+                <a href="#references" class="btn btn-dark" onclick="scrollToReferences(event)">Referanslar</a>
+                <a href="#services" class="btn btn-light" onclick="scrollToServices(event)">Hizmetler</a>
+            </div>
+            <a href="#contact" class="btn btn-green contact-btn" onclick="scrollToContact(event)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-phone">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                Bize Ulaşın
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Services Section -->
+<div id="services" class="services-container" style="padding-top: 40px; margin-top: -60px;">
+    <!-- Section Title -->
+    <div class="section-title" style="margin-top: 0;">
+        <h2>Hizmetlerimiz</h2>
+    </div>
+    
+    <div class="services-grid">
+        <!-- Card 1 -->
+        <div class="service-card card-green">
+            <div class="icon-circle green">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 22v-7l-2-2"></path>
+                    <path d="M12 13l2-2"></path>
+                    <path d="M13.4 9.6a2.1 2.1 0 1 1-2.8-2.8L12 5.4l1.4 1.4a2.1 2.1 0 0 1 0 2.8"></path>
+                    <path d="M18.2 14.4a5 5 0 0 1-7.8-6L12 6l1.6 1.6a5 5 0 0 1 4.6 6.8"></path>
+                    <path d="M8.1 16a6 6 0 0 0 7.9 0"></path>
+                </svg>
+            </div>
+            <h2>Orman</h2>
+            <p>Orman izin dosyaları, Özel ağaçlandırma, Mevzuat danışmanlığı, Mesire yeri projelendirme, Orman endüstri ürünleri, Rehabilitasyon projeleri, Maden danışmannlığı, Harita Hizmetleri, Aplikasyon hizmetleri, Drone görüntüleme, İmalat haritaları, Alan tahsis projeleri</p>
+        </div>
+        
+        <!-- Card 2 -->
+        <div class="service-card card-gold">
+            <div class="icon-circle gold">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                    <path d="M5 8a4 4 0 0 0 8 0"></path>
+                    <path d="M19.5 13.5 21 12l-2-2-6 6 2 2 1.5-1.5"></path>
+                    <path d="m12 16 1 1"></path>
+                </svg>
+            </div>
+            <h2>Çevre</h2>
+            <p>ÇED Raporu Hazırlama, Çevre danışmanlık, Atık yönetimi, Kalite yönetim sistemleri, Sürdürülebilir danışmanlığı, Hava kalitesi modelleme, Proje danışmanlığı, Hidrojeolojik ETÜD raporu, Tarafsız denetim hizmetleri, Mevzuat danışmanlığı, Karbon ayak izi hesplama, Çalışma ruhsatı, Sıfır atık danışmanlığı, Arıtma sistemleri danışmalığı, Sonndaj raporlama, Su ayak izi hesaplama</p>
+        </div>
+        
+        <!-- Card 3 -->
+        <div class="service-card card-blue">
+            <div class="icon-circle blue">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 22V4c0-.5.2-1 .6-1.4C8 2.2 8.5 2 9 2h11c.5 0 1 .2 1.4.6C21.8 3 22 3.5 22 4v12c0 .5-.2 1-.6 1.4-.4.4-.9.6-1.4.6h-7"></path>
+                    <path d="M2 18v4h5"></path>
+                    <path d="M2 15v7"></path>
+                    <path d="M15 8h2"></path>
+                    <path d="M15 12h2"></path>
+                    <path d="M7 12c1 0 1.5.5 1.5 1.5S8 15 7 15c-.3 0-.5-.1-.7-.3-.2-.2-.3-.4-.3-.7v-7"></path>
+                    <path d="M11 12c1 0 1.5.5 1.5 1.5S12 15 11 15c-.3 0-.5-.1-.7-.3-.2-.2-.3-.4-.3-.7v-3"></path>
+                </svg>
+            </div>
+            <h2>Peyzaj</h2>
+            <p>Özel ağaçlandırma uygulamaları, 3D modelleme uygulamaları, Fidan ve peyzaj ürün satışları, Saha uygulamaları, Sulama projeleri, Otomatik sulama sistemi, Peyzaj danışmanlığı, Özel projelendirme hizmetleri</p>
+        </div>
+    </div>
+</div>
+
+<!-- References Section -->
+<div id="references" class="references-container">
+    <!-- Section Title -->
+    <div class="section-title">
+        <h2>Referanslarımız</h2>
+        <p>Sektörün öncü kuruluşlarıyla güvenilir işbirlikleri geliştiriyoruz</p>
+    </div>
+    
+    <!-- Logo Showcase - FIXED STRUCTURE -->
+    <div class="logo-showcase">
+        <div class="logo-row">
+            <!-- First row logos -->
+            <div class="logo-item">
+                <img src="~/images/nuh.png" alt="Referans Şirket 1">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/yildizentegre.png" alt="Referans Şirket 2">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/total1.jpg" alt="Referans Şirket 3">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/fenerbahçe1.png" alt="Referans Şirket 4">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/istaç.jpg" alt="Referans Şirket 5">
+            </div>
+        </div>
+        
+        <div class="logo-row">
+            <!-- Second row logos -->
+            <div class="logo-item">
+                <img src="~/images/kocaeli.png" alt="Referans Şirket 6">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/kastamonu.png" alt="Referans Şirket 7">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/gebze.png" alt="Referans Şirket 8">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/zorlu1.png" alt="Referans Şirket 9">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/lafarge.png" alt="Referans Şirket 10">
+            </div>
+        </div>
+        
+        <div class="logo-row">
+            <!-- Third row logos -->
+            <div class="logo-item">
+                <img src="~/images/aygaz.jpg" alt="Referans Şirket 11">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/cengiz.png" alt="Referans Şirket 12">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/kalyon.png" alt="Referans Şirket 13">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/kolin.jpeg" alt="Referans Şirket 14">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/limak.png" alt="Referans Şirket 15">
+            </div>
+        </div>
+        
+        <div class="logo-row">
+            <!-- Fourth row logos -->
+            <div class="logo-item">
+                <img src="~/images/ob.png" alt="Referans Şirket 16">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/mng.png" alt="Referans Şirket 17">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/ts.png" alt="Referans Şirket 18">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/iga.png" alt="Referans Şirket 19">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/ibb.jpeg" alt="Referans Şirket 20">
+            </div>
+        </div>
+        
+        <div class="logo-row">
+            <!-- Fifth row logos -->
+            <div class="logo-item">
+                <img src="~/images/arbiogaz.jpeg" alt="Referans Şirket 21">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/akçansa.png" alt="Referans Şirket 22">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/danış.jpeg" alt="Referans Şirket 23">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/atermit.png" alt="Referans Şirket 24">
+            </div>
+            <div class="logo-item">
+                <img src="~/images/kaya.png" alt="Referans Şirket 25">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section - Simple Two-Column Layout -->
+<div id="contact" class="simple-contact-container">
+   
+    
+    <div class="simple-contact-content">
+        <!-- Two Column Layout -->
+        <div class="simple-contact-columns">
+            <!-- Left Column: Office Locations -->
+            <div class="simple-locations-column">
+                <h3 class="vertical-accent-title">Ofislerimiz</h3>
+                
+                <!-- Kocaeli Office -->
+                <div class="simple-location-item">
+                    <h4>KOCAELİ</h4>
+                    <p>Yahyakaptan Mh. Şehit Ali İhsan Çakmak Sokağı No:62 D:1-2 İzmit / KOCAELİ</p>
+                </div>
+                
+                <!-- Istanbul Office -->
+                <div class="simple-location-item">
+                    <h4>İSTANBUL</h4>
+                    <p>Hamidiye Mh. Rumeli Cad. Blox Haliç III No:49 Kağıthane / İSTANBUL</p>
+                </div>
+                
+                <!-- Ankara Office -->
+                <div class="simple-location-item">
+                    <h4>ANKARA</h4>
+                    <p>Mustafa Kemal Mh. 2079 Cad. VİA Garden Blok No:69 Çankaya / ANKARA</p>
+                </div>
+            </div>
+            
+            <!-- Right Column: Contact Methods in Two Columns -->
+            <div class="simple-contact-methods-column">
+                <h3 class="vertical-accent-title">İletişim Kanalları</h3>
+                
+                <div class="contact-methods-columns">
+                    <!-- Left Column of Contact Methods -->
+                    <div class="contact-methods-column">
+                        <!-- Phone -->
+                        <div class="simple-contact-method">
+                            <div class="simple-method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                </svg>
+                            </div>
+                            <div class="simple-method-details">
+                                <span class="simple-method-label">Telefon</span>
+                                <a href="tel:02623110312" class="simple-method-value">0262 311 0 312</a>
+                            </div>
+                        </div>
+                        
+                        <!-- WhatsApp -->
+                        <div class="simple-contact-method">
+                            <div class="simple-method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+                                </svg>
+                            </div>
+                            <div class="simple-method-details">
+                                <span class="simple-method-label">WhatsApp</span>
+                                <a href="https://wa.me/905316975005" class="simple-method-value">0531 697 50 05</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Email -->
+                        <div class="simple-contact-method">
+                            <div class="simple-method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg>
+                            </div>
+                            <div class="simple-method-details">
+                                <span class="simple-method-label">E-posta</span>
+                                <a href="mailto:info@hus.com.tr" class="simple-method-value">info@hus.com.tr</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column of Contact Methods -->
+                    <div class="contact-methods-column">
+                        <!-- Website -->
+                        <div class="simple-contact-method">
+                            <div class="simple-method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                </svg>
+                            </div>
+                            <div class="simple-method-details">
+                                <span class="simple-method-label">Web</span>
+                                <a href="https://www.hus.com.tr" target="_blank" class="simple-method-value">www.hus.com.tr</a>
+                            </div>
+                        </div>
+                        
+                        <!-- LinkedIn -->
+                        <div class="simple-contact-method">
+                            <div class="simple-method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </div>
+                            <div class="simple-method-details">
+                                <span class="simple-method-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/company/hus-muhendislik" target="_blank" class="simple-method-value">HUŞ Mühendislik</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Instagram -->
+                        <div class="simple-contact-method">
+                            <div class="simple-method-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                </svg>
+                            </div>
+                            <div class="simple-method-details">
+                                <span class="simple-method-label">Instagram</span>
+                                <a href="https://www.instagram.com/husmuhendislik" target="_blank" class="simple-method-value">husmuhendislik</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
